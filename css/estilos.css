@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: Bitter;
+    src: url(Bitter-Regular.ttf);
+}
+
+
+
+
+:root{
+    --cor-fundo:#b2d8d8;
+    --cor-titulo: #004c4c;
+    --cor-paragrafo:#008080;
+    --cor-link:	#006666;
+    --fonte: Bebas Neue;
+    --fonte-2:Bitter;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family:var(--fonte);
+    width: 400px;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: var(--cor-titulo);
+    text-align: center;
+    font-family: var(--fonte);
+}
+p {
+    color: var(--cor-paragrafo);
+    text-align: justify;
+    font-family: var(--fonte-2);     
+}
+
+img {
+    width: 150px;
+    border-color: #000;;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+}
+
+
+ul li a {
+    color: var(--cor-link);
+    padding: 0%;
+    font-size: 15px;
+    font-family: var(--fonte);
+    
+}
+ div.imagem {
+     text-align: center;
+ }
